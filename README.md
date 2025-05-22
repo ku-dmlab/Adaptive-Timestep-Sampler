@@ -6,7 +6,7 @@ This repository contains the official implementation of [(CVPR 2025) Adaptive No
 ```
 CUDA_VISIBLE_DEVICES=0,1 python train.py --dataset cifar10 --num-gpus 2 --distributed --rigid-launch --eval
 ```
-We recommend using 2 GPUs to reproduce the results reported in the paper, 
+We recommend using 2 GPUs to reproduce the results reported in the paper.
 
 While training with more GPUs is also possible, the optimal hyperparameters may differ from those reported in the paper.
 

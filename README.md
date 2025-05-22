@@ -1,7 +1,7 @@
 # Adaptive Non-Uniform Timestep Sampling for Diffusion Model Training
 This repository contains the official implementation of [(CVPR 2025) Adaptive Non-Uniform Timestep Sampling for Diffusion Model Training](https://arxiv.org/abs/2411.09998) by Myunsoo Kim*, Donghyeon Ki*, Seong-Woong Shim, and Byung-Jun Lee.
 
-# How to run code
+# How to run the code
 ### Train
 ```
 CUDA_VISIBLE_DEVICES=0,1 python train.py --dataset cifar10 --num-gpus 2 --distributed --rigid-launch --eval
